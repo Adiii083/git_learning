@@ -1,0 +1,12 @@
+git init
+git add filr name
+git rm --cached testing.py
+git status
+git add .
+git commit -m "Commiting My first file"
+rm tetsing.py
+ls
+rm testing.py
+clear
+git restore testing.py
+git status
