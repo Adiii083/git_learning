@@ -1,3 +1,12 @@
-print("Mera naam hai aditya")
+"""Prints a short introduction message."""
 
-print("done from git")
+
+def main():
+    """Print the greeting and the confirmation message."""
+    print("Mera naam hai Aditya")
+    print("done from git")
+
+
+if __name__ == "__main__":
+    main()
+    

@@ -1,9 +1,11 @@
+"""Provides a simple greeting function."""
+
+
 def hello():
-    """
-    this is demo
-    """
-
-    return "Hello aditya"
+    """Return a greeting for Aditya."""
+    return "Hello Aditya"
 
 
-hello()
+if __name__ == "__main__":
+    print(hello())
+    
